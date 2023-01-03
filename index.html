@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Inicio -->
+
+    <head>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="./src/img/ying-yang-ico-1.webp" type="image" />
+        <!-- Meta descriptiond -->
+        <meta name="description" content="Sumergete en la tranquilidad de tu ser y redescubrete.">
+        <!-- Meta Keywords -->
+        <meta name="keywords" content="meditaciones,clases de Tai Chi, Lian Gong, Qi Gong.">
+        <!-- Open graph -->
+        <meta property="og:type" content="landing page" />
+        <meta property="og:title" content="abrazodelarbol.com" />
+        <meta property="og:description"
+            content="Un espacio para cultivar la salud y la buena calidad de vida en la CDMX" />
+        <meta property="og:url" content="https://www.abrazodelarbol.com" />
+        <meta property="og:image" content="./src/img/cerezo1.png" />
+        <!-- meta -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <!-- css -->
+        <link rel="stylesheet" href="./src/styles/css/styles.css">
+        <!-- title -->
+        <title>Inicio | abrazodelarbol.com</title>
+
+        <!-- CDN desconocidos -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+        <!-- animate -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <!-- scroll reveal -->
+        <script defer src="./src/utils/scrollAnimations.js"></script>
+    </head>
+
+    <body>
+        <!-- <div class="comming"> Proximamente...</div> -->
+        <!-- Loader -->
+        <div class="lds-dual-ring loader" id="loader"></div>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed my-nav">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="https://www.abrazodelarbol.com">
+                    <img src="./src/img/cerezo1.png" alt="Logo" width="35" title="abrazodelarbol.com">
+                    abrazodelarbol.com
+                </a>
+                <!-- theme switch -->
+                <div class="toggleWrapper" title="Click! para tema oscuro">
+                    <input type="checkbox" class="switch" id="switch">
+                    <label for="switch" class="toggle">
+                        <span class="toggle__handler">
+                            <span class="crater crater--1"></span>
+                            <span class="crater crater--2"></span>
+                            <span class="crater crater--3"></span>
+                        </span>
+                        <span class="star star--1"></span>
+                        <span class="star star--2"></span>
+                        <span class="star star--3"></span>
+                        <span class="star star--4"></span>
+                        <span class="star star--5"></span>
+                        <span class="star star--6"></span>
+                    </label>
+                </div>
+                <!-- Boton nav responsive -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- main navbar -->
+                <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 margin-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active-path" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./galeria.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./lugares.html">Lugares</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- off canvas nabvar responsive -->
+        <div class="offcanvas offcanvas-end my-canvas" tabindex="-1" id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">abrazodelarbol.com</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><img
+                        src="./src/img/x.png" alt="" class="x"></button>
+            </div>
+            <div class="offcanvas-body d-flex justify-content-around align-items-center flex-column nav-bar">
+                <a href="./index.html" class="active-path">Inicio</a>
+                <a href="./nosotros.html">Nosotros</a>
+                <a href="./servicios.html">Servicios</a>
+                <a href="./galeria.html">Galería</a>
+                <a href="./lugares.html">Lugares</a>
+                <a href="./contacto.html">Contacto</a>
+            </div>
+        </div>
+        <hr class="hr-style">
+        <!-- portada -->
+        <section class="portada parallax">
+            <video src="./src/video/butterfly.mp4" autoplay loop muted playsinline></video>
+            <div class="contenido-portada">
+                <h2>Crear para sanar</h2>
+                <h3>Un espacio para cultivar la salud </h3>
+                <h3>y la buena calidad de vida en la CDMX</h3>
+                <a href="#main" class="button">Ver más </a>
+                <!-- arrow -->
+                <div class="arrow">
+                    <a href="#main"><img src="./src/img/flecha-hacia-abajo.png" alt="arrow"></a>
+                </div>
+            </div>
+
+        </section>
+        <hr class="hr-style">
+        <!-- first section -->
+        <section id="main" class="box vertical parallax">
+            <div class="column-1 vertical hidden ">
+                <img src="./src/img/peces-ying-yang.png" class="ying-yang-pez rotate " alt="pez">
+            </div>
+            <div class="column-2 hidden">
+                <h2>Crear para sanar</h2>
+                <p>Abrazo del árbol despliega un espacio híbrido y accesible en busca de una vía alterna para cultivar
+                    la relación que tenemos con nuestro cuerpo. Una salida al sedentarismo y a lo cotidiano; encuentra a
+                    través de la práctica artística un nuevo modo de vida, la renovación de una energía agotada.
+                    Transforma el estrés diario en una danza para los sentidos con meditaciones, masajes, movimientos
+                    corporales y paisajes musicales. </p>
+            </div>
+        </section>
+        <hr class="hr-style">
+        <!-- section -->
+        <section class="box">
+            <div class="column-1 hidden">
+                <img src="./src/img/arco-samurai.png" class="arco" alt="pez">
+            </div>
+            <div class="column-2 hidden">
+                <h2>Encuentra tu técnica de sanación</h2>
+                <p>“Las personas hoy son diferentes. Internamente, están esclavizadas por sus emociones y
+                    preocupaciones. Trabajan demasiado pesado en su vida laboral”.
+                    El Emperador Amarillo funda una de las medicinas más antiguas en la civilización humana y, en
+                    conversación con el médico Qi Bo, se plantea esta relación actual entre la salud y el humano. Hasta
+                    el día de hoy, existen técnicas de sanación que nos ayudan a evitar los bloqueos de energía que
+                    generan las enfermedades, aprendiendo a disfrutar del cuerpo en lugar de sufrirlo. Encontramos que
+                    la relación entre emociones, cuerpo y hábitos constituyen hoy un juego que nos genera deficiencias
+                    en vez de fortalecernos. Aplicando técnicas ancestrales y también actuales podemos reapropiar los
+                    espacios en nuestra vida para disfrutar más los días y encontrar las herramientas para empujar las
+                    fronteras que tanto nos delimitan.
+                    ¡Quizá las artes curativas tienen más oportunidad para sanarnos que toda la enseñanza conductista y
+                    comprimidos farmacológicos juntos!
+                </p>
+            </div>
+        </section>
+        <!-- carosel -->
+        <hr class="hr-style">
+        <section class="box">
+            <div class="carousel-container hidden">
+                <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class=""
+                            aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2" class="active" aria-current="true"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3" class=""></button>
+                        <!-- <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                            aria-label="Slide 4" class=""></button> -->
+                        <!-- <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                            aria-label="Slide 5" class=""></button> -->
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item" data-bs-interval="4000">
+                            <img src="./src/img/blue-chinese-bcakgroud.webp"
+                                class="d-block w-100 carousel-border-radius" alt="desarrollo-web-certificado">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="4000">
+                            <img src="./src/img/blue-chinese-backgroud.webp"
+                                class="d-block w-100 carousel-border-radius" alt="react-js-certificado">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                        <div class="carousel-item active" data-bs-interval="4000">
+                            <img src="./src/img/gray-chinese-backgroud.webp"
+                                class="d-block w-100 carousel-border-radius" alt="java-script-certificado">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                        <!-- <div class="carousel-item" data-bs-interval="4000">
+                            <img src="./src/img/blue-chinese-backgroud.webp"
+                                class="d-block w-100 carousel-border-radius" alt="ciberseguridad-certificado">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div> -->
+                        <!--  <div class="carousel-item" data-bs-interval="4000">
+                            <img src="./src/img/blue-chinese-backgroud.webp"
+                                class="d-block w-100 carousel-border-radius"
+                                alt="desarrollo-de-aplicacione-certificado">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div> -->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+        <hr class="hr-style">
+        <!-- section counter -->
+        <section class="wow fadeIn animated box" style="visibility: visible; animation-name: fadeIn;">
+            <div class="container hidden">
+                <div class="row">
+                    <!-- counter -->
+                    <div class=" card-counter  col-md-3 col-sm-6 bottom-margin text-center counter-section wow fadeInUp sm-margin-bottom-ten animated caja hidden"
+                        data-wow-duration="3000ms"
+                        style="visibility: visible; animation-duration: 300ms; animation-name: fadeInUp;">
+                        <img src="./src/img/flor.png" alt="" class=" counter-emoji">
+                        <span id="anim-number-pizza" class="counter-number"></span>
+                        <span class="timer counter alt-font appear" data-to="980" data-speed="1000">100</span>
+                        <p class="counter-title">Purificación</p>
+                    </div>
+                    <!-- end counter -->
+                    <!-- counter -->
+                    <div class="card-counter  col-md-3 col-sm-6 bottom-margin text-center counter-section wow fadeInUp sm-margin-bottom-ten animated caja hidden"
+                        data-wow-duration="600ms"
+                        style="visibility: visible; animation-duration: 600ms; animation-name: fadeInUp;">
+                        <img src="./src/img/chakra.png" alt="" class="counter-emoji">
+                        <span class="timer counter alt-font appear" data-to="980" data-speed="2000">225</span>
+                        <span class="counter-title">Clientes felices</span>
+                    </div>
+                    <!-- end counter -->
+                    <!-- counter -->
+                    <div class=" card-counter  col-md-3 col-sm-6 bottom-margin-small text-center counter-section wow fadeInUp xs-margin-bottom-ten animated caja hidden"
+                        data-wow-duration="900ms"
+                        style="visibility: visible; animation-duration: 900ms; animation-name: fadeInUp;">
+                        <img src="./src/img/chakra-morado.png" alt="" class="counter-emoji">
+                        <span class="timer counter alt-font appear" data-to="810" data-speed="4000">281</span>
+                        <span class="counter-title">Clases completadas</span>
+                    </div>
+                    <!-- end counter -->
+                    <!-- counter -->
+                    <div class="card-counter col-md-3 col-sm-6 text-center counter-section wow fadeInUp animated caja hidden"
+                        data-wow-duration="1200ms"
+                        style="visibility: visible; animation-duration: 1200ms; animation-name: fadeInUp;">
+                        <img src="./src/img/pie.png" alt="" class="counter-emoji">
+                        <span class="timer counter alt-font appear " data-to="600" data-speed="7000">78</span>
+                        <span class="counter-title">Caminos reconectados</span>
+                    </div>
+                    <!-- end counter -->
+                </div>
+            </div>
+        </section>
+        <hr class="hr-style">
+        <!-- footer -->
+        <hr class="hr-style">
+        <footer class="footer">
+            <div class="footer-columns-container">
+
+                <div class="footer-column hidden">
+                    <img src="./src/img/mercago pago copia.webp" class="mercado-pago" alt="">
+                </div>
+                <div class="footer-column hidden">
+                    <div class="footer-navbar">
+                        <a href="./index.html" class="icon hidden active-path">Inicio</a>
+                        <a href="./nosotros.html" class="icon hidden">Nosotros</a>
+                        <a href="./servicios.html" class="icon hidden">Servicios</a>
+                        <a href="./galeria.html" class="icon hidden">Galería</a>
+                        <a href="./lugares.html" class="icon hidden">Lugares</a>
+                        <a href="./contacto.html" class="icon hidden">Contacto</a>
+
+                    </div>
+                </div>
+                <!-- social -->
+                <div class="footer-column hidden">
+                    <div class="social-icons-container">
+                        <a href="https://www.instagram.com/zenseita/?hl=es" target="_blank"><img
+                                src="./src/img/instagram-ico.webp" class="icon hidden" alt="instagram"
+                                title="Instagram"></a>
+                        <a href="https://www.facebook.com/abrazodearbol/" target="_blank"><img
+                                src="./src/img/facebook-ico.webp" class="icon hidden" alt="facebook"
+                                title="Facebook"></a>
+                        <a href="https://www.tiktok.com/@zenseita?lang=es" target="_blank"><img
+                                src="./src/img/tiktok-ico.webp" class="icon hidden" alt="tiktok" title="tiktok"></a>
+                        <a href="https://wa.link/kq00ar" target="_blank"> <img src="./src/img/whatsapp-ico.webp"
+                                class="icon hidden" alt="whatsapp " title="Whatsapp"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-footer">Copyright © 2022 - <a class="ThisIsSantidev" href="https://thisissanti.dev"
+                    target="_blank">ThisIsSanti.dev</a></div>
+        </footer>
+
+        <!-- Sweet alert -->
+        <!--         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="./src/utils/sitioEnDesarrollo.js"></script> -->
+        <!-- bootsrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+        <!-- Animacion counter -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- loader -->
+        <script src="./src/utils/loader.js"></script>
+        <!-- counter -->
+        <script src="./src/utils/counter.js"></script>
+        <!-- theme -->
+        <script src="./src/utils/theme.js"></script>
+        <!-- Start: Copyright 2022 TraceMyIP.org Service Code (205139-11272022)- DO NOT MODIFY //-->
+        <div id="elemID031021"
+            style="display:none;line-height:16px;text-align:center;position:relative;z-index:100000;">
+            <script type="text/javascript"
+                src="//s2.tracemyip.org/vLg/lgUrl.php?pidnVar2=98708&amp;prtVar2=11&amp;stlVar2=1600~1669582247~300*150*1*1*10~F2F5FF*33313B~1*1*1&amp;rgtype=4684NR-IPIB&amp;scvVar2=12"></script>
+            <noscript><a href="https://www.tracemyip.org/"><img
+                        src="//s2.tracemyip.org/vLg/1600~1669582247~300*150*1*1*10~F2F5FF*33313B~1*1*1/4684NR-IPIB/98708/11/12/ans/"
+                        alt="Ip track" referrerpolicy="no-referrer-when-downgrade" style="border:0px;"></a></noscript>
+        </div> <!-- End: TraceMyIP.org Service Code //-->
+
+    </body>
+
+
+</html>

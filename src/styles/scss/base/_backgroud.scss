@@ -1,0 +1,47 @@
+.backgroud {
+    background-image: url("../../img/gray-chinese-backgroud.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    body.dark & {
+        filter: grayscale(100%);
+    }
+}
+
+.backgroud-1 {
+
+    opacity: .9;
+    background-image: url("../../img/blue-chinese-backgroud.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    body.dark & {
+        filter: grayscale(100%);
+    }
+}
+
+.backgroud-2 {
+
+
+    background-image: url("../../img/blue-chinese-backgroud.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    body.dark & {
+        filter: grayscale(100%);
+    }
+}
+
+
+.backgroud-3 {
+
+
+    background-image: url("../../img/wallpaper_chino2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    body.dark & {
+        filter: grayscale(100%);
+    }
+}

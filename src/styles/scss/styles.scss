@@ -1,0 +1,25 @@
+/* base */
+@import "./base/_colors.scss";
+@import "./base/_loader.scss";
+@import "./base/_keyframes.scss";
+@import "./base/_animations.scss";
+@import "./base/_mixins.scss";
+@import "./base/_extends.scss";
+@import "./base/_body.scss";
+@import "./base/backgroud";
+@import "./base/_fonts.scss";
+
+
+
+/* components */
+@import "./components/_theme.scss";
+@import "./components/_404.scss";
+@import "./components/_buttons.scss";
+@import "./components/_navbar.scss";
+@import "./components/_footer.scss";
+@import "./components/_index.scss";
+@import "./components/_about.scss";
+@import "./components/_services.scss";
+@import "./components/_gallery.scss";
+@import "./components/_contact.scss";
+@import "./components/paralax.scss"

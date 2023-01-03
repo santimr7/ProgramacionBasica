@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- nosotros -->
+
+    <head>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="./src/img/ying-yang-ico-1.webp" type="image" />
+        <!-- Meta descriptiond -->
+        <meta name="description" content="Sumergete en la tranquilidad de tu ser y redescubrete.">
+        <!-- Meta Keywords -->
+        <meta name="keywords" content="meditaciones,clases de Tai Chi, Lian Gong, Qi Gong.">
+        <!-- Open graph -->
+        <meta property="og:type" content="landing page" />
+        <meta property="og:title" content="abrazodelarbol.com" />
+        <meta property="og:description"
+            content="Un espacio para cultivar la salud y la buena calidad de vida en la CDMX" />
+        <meta property="og:url" content="https://www.abrazodelarbol.com" />
+        <meta property="og:image" content="./src/img/cerezo1.png" />
+        <!-- meta -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <!-- animate -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <!-- scroll animations -->
+        <script defer src="./src/utils/scrollAnimations.js"></script>
+        <!-- css -->
+        <link rel="stylesheet" href="./src/styles/css/styles.css">
+        <!-- title -->
+        <title>Servicios | abrazodelarbol.com</title>
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <div class="lds-dual-ring loader" id="loader"></div>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed my-nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://www.abrazodelarbol.com">
+                    <img src="./src/img/cerezo1.png" alt="Logo" width="35" title="abrazodelarbol.com">
+                    abrazodelarbol.com
+                </a>
+                <!-- theme switch -->
+                <div class="toggleWrapper">
+                    <input type="checkbox" class="switch" id="switch">
+                    <label for="switch" class="toggle">
+                        <span class="toggle__handler">
+                            <span class="crater crater--1"></span>
+                            <span class="crater crater--2"></span>
+                            <span class="crater crater--3"></span>
+                        </span>
+                        <span class="star star--1"></span>
+                        <span class="star star--2"></span>
+                        <span class="star star--3"></span>
+                        <span class="star star--4"></span>
+                        <span class="star star--5"></span>
+                        <span class="star star--6"></span>
+                    </label>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 margin-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active-path" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./galeria.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./lugares.html">Lugares</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- off canvas nabvar responsive -->
+        <div class="offcanvas offcanvas-end my-canvas" tabindex="-1" id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">abrazodelarbol.com</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><img
+                        src="./src/img/x.png" alt="" class="x"></button>
+            </div>
+            <div class="offcanvas-body d-flex justify-content-around align-items-center flex-column nav-bar">
+                <a href="./index.html">Inicio</a>
+                <a href="./nosotros.html">Nosotros</a>
+                <a href="./servicios.html" class="active-path">Servicios</a>
+                <a href="./galeria.html">Galería</a>
+                <a href="./lugares.html">Lugares</a>
+                <a href="./contacto.html">Contacto</a>
+            </div>
+        </div>
+        <hr class="hr-style">
+        <!-- portada -->
+        <div class="portada">
+            <video src="./src/video/libelula.mp4" autoplay muted loop playsinline></video>
+            <div class="contenido-portada">
+                <h2>Servicios</h2>
+                <a href="#qi" class="button">Ver más</a>
+                <!-- arrow -->
+                <div class="arrow">
+                    <a href="#qi"><img src="./src/img/flecha-hacia-abajo.png" alt="arrow"></a>
+                </div>
+            </div>
+        </div>
+        <hr class="hr-style">
+        <hr class="hr-style">
+        <!-- section Cápsulas de Qi -->
+        <section id="qi" class="box ">
+            <div class="qi-wrapper">
+                <div class="qi-header">
+                    <h2><img src="https://cdn-icons-png.flaticon.com/512/7242/7242424.png" class="mini-icon"
+                            alt="">Cápsulas de Qi</h2>
+                    <p>¡Para comenzar a tratar tu necesidad más inmediata!</p>
+                    <p>5 videos de 5 minutos cada uno</p>
+
+                </div>
+                <div class="qi-cards-container">
+                    <div class="qi-card caja  hidden">
+                        <h2>Corazón tranquilo </h2>
+                        <img src="./src/img/corazonTranquilo.jpg" alt="corazonTranquilo" />
+                        <p>El desgaste energético empieza por un estado nervioso, te compartimos los mejores tips para
+                            calmar un
+                            corazón inquieto. </p>
+                        <a class="button" href="https://mpago.la/1XaVwMn">Costo $50</a>
+
+                    </div>
+                    <div class="qi-card  caja hidden">
+                        <h2>Añadiendo hábitos </h2>
+                        <img src="./src/img/Añadiendo hábitos.jpg" alt="AñadiendoHábitos" />
+                        <p>Desplaza los hábitos nocivos que quieres dejar sin esfuerzo, comienza a añadiendo en vez de
+                            quitar.
+                        </p>
+                        <a class="button" href="https://mpago.la/1K7vZuX">Costo $50</a>
+
+                    </div>
+                    <div class="qi-card  caja hidden">
+                        <h2>Rutina saludable</h2>
+                        <img src="./src/img/rutinaSaludable.jpg" alt="peces" />
+                        <p>Las temporadas del año, los sabores, las emociones, los órganos y sus horarios. Una guía
+                            básica para
+                            vivir en sincronía con la naturaleza.</p>
+                        <a class="button" href="https://mpago.la/2UzApUi">Costo $50</a>
+
+                    </div>
+                    <div class="qi-card  caja hidden">
+                        <h2>Ansiedad SOS</h2>
+                        <img src="./src/img/ansiedad.jpg" alt="ansiedad" />
+                        <p>Técnicas de relajación para calmar la ansiedad cuando más lo necesitamos</p>
+                        <a class="button" href="https://mpago.la/2UzApUi">Costo $50</a>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <hr class="hr-style">
+        <!-- Tai Chi -->
+        <section id="taichi" class="box ">
+
+            <div class="column-2 hidden servicio-container">
+                <!-- Contenido 1 -->
+                <h2>Taller de Tai Chi</h2>
+                <h3>Reconexión Corporal</h3>
+                <p class="servicio-subtitle">Recupera tu salud y regula tus emociones disfrutando la suavidad del
+                    cuerpo</p>
+                <img class="taichi-logo taichi-animal-light" src="./src/img/taichi-animal-black.webp"
+                    alt="taichi-animal" />
+                <img class="taichi-logo taichi-animal-dark" src="./src/img/taichi-animal-white.webp"
+                    alt="taichi-animal" />
+
+                <p class="descripcion-servicio">¡Iniciando el día con clases de Tai Chi, no hay mejor manera de
+                    despertar! Prepara tu
+                    cuerpo
+                    para los retos de tu día. Las técnicas en el entrenamiento del Tai Chi no sólo te ayudan
+                    físicamente a ser más ágil, más rápido y resistente, contando una mejor concentración,
+                    también te provocan un excelente estado anímico para esquivar los conflictos y el estrés
+                    de
+                    la vida cotidiana.
+                </p>
+                <hr class="hr-servicios">
+
+                <ul>
+                    <h3> Los beneficios del Tai Chi. </h3>
+                    <li>Recupera resistencia física.</li>
+                    <li>Desarrolla flexibilidad corporal.</li>
+                    <li>Perfecciona la coordinación del cuerpo y de los sentidos.</li>
+                    <li>Incrementa la capacidad pulmonar.</li>
+                    <li>Regula el desequilibrio mental, emocional y hormonal.</li>
+                    <li>Regulariza y aumenta la energía vital del cuerpo (Qi).</li>
+                    <li>Permite disfrutar del cuerpo a través del ejercicio y la meditación.</li>
+                    <li>Es eficaz como terapia en la rehabilitación de mal funcionamientos físicos y emocionales.
+                    </li>
+                    <li>Es el ejercicio ideal para combatir problemas de depresión, ansiedad, insomnio, etc.</li>
+                </ul>
+
+            </div>
+            <div class="column-1 hidden ">
+                <!-- Contenido 2 -->
+                <button class="button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                    aria-expanded="true" aria-controls="collapseExample">
+                    Mas información
+                </button>
+
+                <div class=" collapse show" id="collapseExample">
+                    <div class="card card-body">
+                        <ul>
+                            <h3>¿Qué se aprende en Tai Chi?</h3>
+                            <li>Forma 24 de Tai Chi.</li>
+                            <li>Coordinación de movimiento y respiración.</li>
+                            <li>Balance del cuerpo (Yin Yang).</li>
+                            <li>Movimiento del Qi.</li>
+                            <li>El cuerpo desde la suavidad y la flexibilidad.</li>
+                            <li>Tuisho (combate sensitivo).</li>
+                            <li>Lian gong (terapia corporal basada en movimientos quiroprácticos y medicina
+                                tradicional china). </li>
+                            <li>Qi gong, el trabajo energético.</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <hr class="hr-servicios">
+                <div class="horario-container">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2721/2721227.png" class="mini-icon" alt="">
+                    <h3>Horarios </h3>
+                </div>
+                <p>Lunes a Jueves </p>
+                <ul>
+                    <li>Clase yin / 8 a 9 am</li>
+                    <li>Clase Yang / 9 a 10 am</li>
+                </ul>
+                <hr class="hr-servicios">
+                <h3>Costos</h3>
+                <div class="button-wrapper">
+                    <a href="https://mpago.la/1wa6qFX " class="button">4 clases al mes $350 </a>
+                    <a href="https://mpago.la/2wR3nV8 " class="button">8 clases al mes $600 </a>
+                    <a href="https://mpago.la/1jPGZgR " class="button">12 clases al mes $900 </a>
+                </div>
+            </div>
+        </section>
+        <hr class="hr-style">
+        <!-- final Taichi -->
+        <!-- section Kung Fu -->
+        <section id="chikung" class="box reverse">
+            <div class="column-1 hidden descripcion-servicio">
+                <!-- Contenido 2 -->
+                <button class="button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                    aria-expanded="true" aria-controls="collapseExample">
+                    Mas información
+                </button>
+
+
+                <div class="collapse show" id="collapseExample">
+                    <div class="card card-body">
+                        <ul>
+                            <h3>¿Qué se aprende en el taller de Kung Fu?</h3>
+                            <li>Formas de animales: tigre, serpiente, víbora, leopardo, dragón.</li>
+                            <li>Meditación creativa.</li>
+                            <li>Cuentos, relatos y poesía complementaria.</li>
+                            <li>La importancia de las emociones para una vida sana y feliz.</li>
+                            <li>La importancia de jugar para descubrir el mundo.</li>
+                            <li>Taller de escritura para un mejor desarrollo emocional.</li>
+                            <li>Respiración tranquila.</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <hr class="hr-servicios">
+                <h3>Horarios </h3>
+                <div class="horario-container">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2721/2721227.png" class="mini-icon" alt="">
+                    <p>Lunes a Jueves de 4 a 5 pm </p>
+                </div>
+
+                <hr class="hr-servicios">
+                <h3>Costos</h3>
+                <div class="button-wrapper">
+                    <a href="https://mpago.la/2dGPrjz" class="button">4 clases al mes $350 </a>
+                    <a href="https://mpago.la/1KfbvTr " class="button">8 clases al mes $600 </a>
+                    <a href="https://mpago.la/2giUFU5  " class="button">12 clases al mes $900 </a>
+                </div>
+            </div>
+            <div class="column-2 hidden servicio-container">
+                <!-- Contenido 1 -->
+                <h2>Taller de Kung Fu</h2>
+                <h3>El Retorno al Juego</h3>
+                <p class="servicio-subtitle">Recupera tu salud y regula tus emociones disfrutando la suavidad del
+                    cuerpo</p>
+                <img src="./src/img/kungfu-animals.jpg" class="kungfu-logo" alt="kungfu-animals" />
+
+
+                <p class="descripcion-servicio">
+                    Esta clase la habitan los pequeños seres que requieren una educación del cuerpo y sus emociones.
+                    Aprender desde edad temprana a generar hábitos para una vida sana es muy valioso y para que
+                    nuestros niñ_s puedan adquirir las herramientas necesarias, podemos comenzar con la práctica del
+                    Kung Fu. Este arte marcial, aparte de incrementar nuestra capacidad de autodefensa, enseña a
+                    desarrollar nuestras más grandes habilidades a través de ejercicios divertidos. ¡El juego!
+                    Volvamos a jugar y a adaptar nuestro cuerpo a un hábito de movimiento y astucia. Atrapemos la
+                    atención dispersa con meditaciones, cuentitos y movimientos que imitan a los animales.
+                </p>
+                <hr class="hr-servicios">
+
+                <ul class="descripcion-servicio">
+                    <h3>Los beneficios del Kung Fu.</h3>
+                    <li>Afina de manera especial la motricidad, la coordinación y la elasticidad.</li>
+                    <li>Fortalece el cuerpo y genera resistencia ante accidentes y/o enfermedades.</li>
+                    <li>Enseña cómo sanar el cuerpo desde temprana edad. </li>
+                    <li>Cultiva y dirige hacia una vida emocional equilibrada. </li>
+                    <li>Regula los desbalances energéticos. </li>
+                    <li>Redirección de comportamientos volátiles.</li>
+                    <li>Fomenta las habilidades creativas y sensibles.</li>
+                    <li>Integra la autodefensa con responsabilidad.</li>
+                    <li>Favorece al buen desarrollo de los sentidos.</li>
+                    <li>Cultiva el espíritu y la disciplina.</li>
+                </ul>
+            </div>
+        </section>
+        <!-- section Carta natal china  -->
+        <hr class="hr-style">
+        <section id="meditación" class="box ">
+            <div class="column-2 hidden carta-natal-china">
+                <h2>Carta Natal China </h2>
+                <br>
+                <img src="https://cdn-icons-png.flaticon.com/512/4295/4295461.png" class="carta-logo-mini-light" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/512/4295/4295420.png" class="carta-logo-mini-dark" alt="">
+                <br>
+                <p>
+                    Para el sentido de vida en el tiempo los chinos han creado ingeniosas maneras de aproximarse a lo
+                    que
+                    le da sentido y vida desde su nacimiento, las horas, el mes y el año. Para esto, los antiguos
+                    astrónomos y sabios chinos crearon ciertas nociones astronómicas que ayudasen a comprender cómo
+                    estos cuerpos celestes, las estaciones del año, la posición del sol durante el día, la relación
+                    inmediata en los flujos de todos estos involucrados con los órganos, la hora más propicia para tomar
+                    el té según la conformación corporal de cada uno de nosotros.
+                    <br>
+                    <br>
+                    Siendo que cada uno tiene una
+                    composición e inclinaciones corporales en grado diferentes, ellos supieron ver esa interdependencia
+                    entre cuerpos celestes, inclinaciones durante el día, ciclos de los órganos en las ciclos de los
+                    diferentes animales que observaban más afines a ciertas conductas en ciertas horas del día, en los
+                    meses como las estaciones del año.
+                    <br>
+
+                    Y qué mejor modelo de estas alteraciones de la rotación del mundo
+                    y los efectos de su naturaleza universal que los animales que no pueden mentir sobre su propio
+                    actuar, su actuar es en ese sentido más fiel a esas pequeñas e importantes alteraciones del medio
+                    que el ser humano que tiende a complejizarse. Este estudio sobre el calendario chino ha sido
+                    pormenorizado acusándole de una falsa ciencia al punto que se le ve desde fuera sólo como una
+                    astrología, siendo que es más parecido a una astronomía de la naturaleza de los cuerpos animales en
+                    el humano.
+                </p>
+
+            </div>
+            <div class="column-1 hidden">
+                <img src="./src/img/cartaNatalChina.png" class="carta-natal-logo carta-logo-light"
+                    alt="cartaNatalChina" />
+                <img src="./src/img/cartaNatalChina copia.webp" class="carta-natal-logo carta-logo-dark"
+                    alt="cartaNatalChina" />
+                <a class="button hidden " href="https://mpago.la/1Twkhkz">Costo $200 </a>
+            </div>
+
+        </section>
+        <hr class="hr-style">
+        <!-- section Consulta de I Ching -->
+        <section id="meditación" class="box ">
+            <div class="column-1 hidden">
+                <img src="https://cdn-icons-png.flaticon.com/512/6198/6198791.png" class="ching-logo"
+                    alt="I Ching logo" />
+            </div>
+            <div class="column-2 hidden">
+                <h2>Consulta de I Ching </h2>
+                <p>El I Ching o libro de las mutaciones es un oráculo milenario que tiene como propósito auxiliar en la
+                    toma de decisiones. ¿Cómo se juega? Una manera de activar sus poderes es a través de monedas; un
+                    lado yin y el otro yang se le atribuyen a cada cara, se agita y se sueltan las monedas. El libro te
+                    responderá tus preguntas con muchas voces y revelaciones.
+                </p>
+                <a class="button hidden" href="https://mpago.la/1QXQyN7">Costo $200 </a>
+            </div>
+
+        </section>
+
+
+        <!-- footer -->
+        <hr class="hr-style">
+        <footer class="footer">
+            <div class="footer-columns-container">
+
+                <div class="footer-column hidden">
+                    <img src="./src/img/mercago pago copia.webp" class="mercado-pago" alt="">
+                </div>
+                <div class="footer-column hidden">
+                    <div class="footer-navbar">
+                        <a href="./index.html" class="icon hidden">Inicio</a>
+                        <a href="./nosotros.html" class="icon hidden">Nosotros</a>
+                        <a href="./servicios.html" class="icon hidden active-path">Servicios</a>
+                        <a href="./galeria.html" class="icon hidden">Galería</a>
+                        <a href="./lugares.html" class="icon hidden">Lugares</a>
+                        <a href="./contacto.html" class="icon hidden">Contacto</a>
+
+                    </div>
+                </div>
+                <!-- social -->
+                <div class="footer-column hidden">
+                    <div class="social-icons-container">
+                        <a href="https://www.instagram.com/zenseita/?hl=es" target="_blank"><img
+                                src="./src/img/instagram-ico.webp" class="icon hidden" alt="instagram"
+                                title="Instagram"></a>
+                        <a href="https://www.facebook.com/abrazodearbol/" target="_blank"><img
+                                src="./src/img/facebook-ico.webp" class="icon hidden" alt="facebook"
+                                title="Facebook"></a>
+                        <a href="https://www.tiktok.com/@zenseita?lang=es" target="_blank"><img
+                                src="./src/img/tiktok-ico.webp" class="icon hidden" alt="tiktok" title="tiktok"></a>
+                        <a href="https://wa.link/kq00ar" target="_blank"> <img src="./src/img/whatsapp-ico.webp"
+                                class="icon hidden" alt="whatsapp " title="Whatsapp"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-footer">Copyright © 2022 - <a class="ThisIsSantidev" href="https://thisissanti.dev"
+                    target="_blank">ThisIsSanti.dev</a></div>
+        </footer>
+        <!-- theme -->
+        <script src="./src/utils/theme.js"></script>
+
+        <!-- loader -->
+        <script src="./src/utils/loader.js"></script>
+        <!-- bootsrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+    </body>
+
+
+</html>

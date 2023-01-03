@@ -1,0 +1,264 @@
+/* Services */
+
+.reverse {
+    @media screen and (max-width:1308px) {
+
+        flex-direction: column-reverse;
+
+
+    }
+}
+
+
+
+
+.taichi-logo {
+    width: 45%;
+}
+
+.kungfu-logo {
+    width: 70%;
+}
+
+.ching-logo {
+    width: 45%;
+    padding: 25px;
+}
+
+.carta-natal-china {
+    background: rgb(151, 149, 186);
+    background: linear-gradient(90deg, rgba(151, 149, 186, 1) 0%, rgba(223, 204, 249, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    padding-top: 40px;
+
+    box-shadow: 8px 8px 8px -4px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: 8px 8px 8px -4px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 8px 8px 8px -4px rgba(0, 0, 0, 0.44);
+    border-radius: 50px;
+
+    body.dark & {
+        background: darker(rgb(70, 70, 88), 50%);
+        background: linear-gradient(90deg, rgb(37, 37, 46) 0%, rgb(68, 48, 94) 100%, rgb(27, 126, 146) 100%);
+
+    }
+
+    @media screen and (min-width:600px) {
+        padding: 40px;
+    }
+
+}
+
+/* tai chi animal tema oscuro */
+.taichi-animal-light {
+
+
+    body.dark & {
+        display: none;
+    }
+}
+
+.taichi-animal-dark {
+    display: none;
+
+    body.dark & {
+        display: flex;
+    }
+
+}
+
+/* carta china tema oscuro */
+.carta-logo-mini-light {
+    width: 90px;
+
+    body.dark & {
+        display: none;
+    }
+}
+
+.carta-logo-mini-dark {
+    display: none;
+
+    body.dark & {
+        display: flex;
+        width: 90px;
+    }
+
+}
+
+/* carta china tema oscuro */
+.carta-logo-light {
+
+
+    body.dark & {
+        display: none;
+    }
+}
+
+.carta-logo-dark {
+    display: none;
+
+    body.dark & {
+        display: flex;
+        filter: none !important;
+
+    }
+
+}
+
+.carta-natal-logo {
+    width: 100% !important;
+    padding: 20px;
+}
+
+.servicio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(209 208 168 / 15%);
+    padding: 25px;
+    max-width: 700px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px -4px rgb(0 0 0 / 44%);
+    -webkit-box-shadow: 8px 8px 8px -4px rgb(0 0 0 / 44%);
+    -moz-box-shadow: 8px 8px 8px -4px rgba(0, 0, 0, 0.44);
+    margin-bottom: 20px;
+
+
+    h2 {
+        margin-top: 50px;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .servicio-subtitle {
+        text-align: center !important;
+        margin: 15px
+    }
+
+    .descripcion-servicio {
+        max-width: 500px;
+        text-align: justify;
+    }
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.horario-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    p {}
+}
+
+.mini-icon {
+    width: 60px !important;
+    margin-right: 15px;
+}
+
+.hr-servicios {
+    background-color: black;
+    width: 100%;
+    height: 2px;
+}
+
+/* Section QI */
+
+.qi-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.qi-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    h2 {
+        margin-top: 30px;
+    }
+
+    p {
+
+        body.dark & {
+            color: white;
+        }
+    }
+
+}
+
+.qi-cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+    .qi-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        max-width: 275px;
+        background-color: #a4aded42;
+        border-radius: 10px;
+        min-height: 550px;
+        margin: 5px;
+        padding: 15px;
+        box-shadow: 8px 8px 8px -4px rgba(0, 0, 0, 0.44);
+        -webkit-box-shadow: 8px 8px 8px -4px rgba(0, 0, 0, 0.44);
+        -moz-box-shadow: 8px 8px 8px -4px rgba(0, 0, 0, 0.44);
+
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            text-align: justify;
+            width: 80%;
+
+            body.dark & {
+                color: white;
+            }
+        }
+
+
+        img {
+            width: 150px;
+            border-radius: 10px;
+        }
+    }
+}
+
+
+
+/* Collapse button backgroud */
+.card {
+
+    max-width: 550px;
+
+    body.dark & {
+        background-color: #1d1d1d !important;
+        color: white;
+    }
+
+}

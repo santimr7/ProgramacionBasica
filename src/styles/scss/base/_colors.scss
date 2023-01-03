@@ -1,0 +1,27 @@
+/* Theme colors */
+
+$theme-light: white;
+
+$theme-dark: #1f2023;
+$theme-dark-less: #22272e;
+$theme-dark-less-1: #27282d;
+
+
+
+/* End theme colors */
+
+$color-primary: black;
+$color-secondary: white;
+$color-light-gray: grey;
+$color-dark-gray: #1d1d1d;
+$color-light-pink: rgb(238, 170, 255);
+$color-light-purple: rgb(174, 107, 190);
+
+.white-text {
+    color: white !important;
+}
+
+.black-text {
+    color: black !important;
+    font-weight: 400;
+}

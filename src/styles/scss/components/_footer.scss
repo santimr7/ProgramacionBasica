@@ -1,0 +1,173 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #272727;
+
+
+    body.dark & {
+        background-color: $theme-dark;
+    }
+}
+
+.footer-columns-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    color: grey;
+    flex-wrap: wrap;
+
+
+    .footer-column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+
+        input {
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        button {
+            border-radius: 5px;
+            font-size: 10px;
+        }
+
+        p {
+            text-align: justify;
+        }
+    }
+}
+
+.footer-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+
+
+    a {
+        text-decoration: none !important;
+        color: $color-light-gray ;
+        transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+
+
+
+        &:visited {
+            color: $color-light-gray ;
+        }
+
+        &:hover {
+            transform: scale(1.2);
+            color: $color-light-pink ;
+        }
+
+
+
+
+    }
+
+
+
+}
+
+.active-path {
+    transform: scale(1.2) !important;
+    color: $color-light-pink !important;
+}
+
+.footer-footer {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: lightgray;
+    align-self: flex-end;
+    background-color: #1d1d1d;
+    font-size: 12px;
+    color: $color-light-gray;
+
+
+    a {
+
+        text-decoration: none;
+        color: $color-light-gray;
+
+
+
+    }
+
+
+    body.dark & {
+        background-color: rgb(20, 20, 20);
+    }
+}
+
+.social-icons-container {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+    flex-direction: row !important;
+    transition: all ease .3s;
+
+    img {
+        width: 40px;
+        /* filter: grayscale(100%); */
+        margin-right: 10px;
+        transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+        filter: grayscale(1);
+        opacity: 60%;
+
+
+        &:hover {
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+
+        body.dark & {
+            filter: grayscale(100%);
+
+            &:hover {
+                filter: none;
+            }
+        }
+    }
+
+
+
+}
+
+.mercado-pago {
+    width: 175px;
+    transition: all ease .3s;
+    filter: grayscale(1);
+    opacity: 60%;
+
+
+
+    body.dark & {
+        filter: grayscale(100%);
+
+        &:hover {
+            filter: none;
+        }
+    }
+}
+
+.ThisIsSantidev {
+    transition: .2s all ease;
+}
+
+.ThisIsSantidev:active {
+    color: greenyellow;
+    text-shadow: 0 0 1px turquoise;
+    transform: scale(1.2);
+
+}
